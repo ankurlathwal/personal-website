@@ -7,13 +7,12 @@ export default function Home() {
       <Head>
         <title>Ankur Lathwal | Full Stack Developer</title>
         <meta name="description" content="Ankur Lathwal personal website" />
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href="/favicons/favicon-rounded.ico" />
       </Head>
       <main className='container laptop:wrapper'>
-        <h1 className='font-bold flex items-baseline justify-center'><span>Welcome to my world!</span><GiHighFive /></h1>
+        <h1 className='font-bold flex items-baseline justify-center'><span>Welcome to my world!</span><GiHighFive className='text-primary' /></h1>
         <div className='font-regular text-center'>My name is Ankur Lathwal and I am a Full Stack Developer based in Melbourne, Australia.</div>
       </main>
-
       <footer>
       </footer>
     </div>

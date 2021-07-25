@@ -14,6 +14,11 @@ module.exports = {
         'laptop': '1024px',
         'desktop': '1440px',
       },
+      colors:{
+        transparent: 'transparent',
+        current: 'currentColor',
+        primary: '#0891B2',
+      },
       spacing: {
         '0': '0px',
         '1': '1px',
