@@ -1,16 +1,51 @@
-html,
-body {
-  padding: 0;
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: 'hind-siliguri-regular';
+  src: url('/fonts/hind-siliguri/HindSiliguri-Regular.ttf');
 }
 
-a {
-  color: inherit;
-  text-decoration: none;
+@font-face {
+  font-family: 'hind-siliguri-light';
+  src: url('/fonts/hind-siliguri/HindSiliguri-Light.ttf');
 }
 
-* {
-  box-sizing: border-box;
+@font-face {
+  font-family: 'hind-siliguri-bold';
+  src: url('/fonts/hind-siliguri/HindSiliguri-Bold.ttf');
+}
+
+@font-face {
+  font-family: 'hind-siliguri-medium';
+  src: url('/fonts/hind-siliguri/HindSiliguri-Medium.ttf');
+}
+@font-face {
+  font-family: 'hind-siliguri-semi-bold';
+  src: url('/fonts/hind-siliguri/HindSiliguri-SemiBold.ttf');
+}
+
+@layer utilities{
+  @variants responsive{
+  .wrapper{
+    max-width: 1440px;
+    padding: 0 60px;
+  }
+  @media(max-width: 425px){
+    .wrapper {
+      padding: 0 16px;
+    }
+  }
+  @media(min-width: 426px) and (max-width: 768px){
+    .wrapper {
+      padding: 0 32px;
+    }
+  }
+  @media(min-width: 769px) and (max-width: 1024px){
+    .wrapper {
+      padding: 0 40px;
+    }
+  }
+}
 }
