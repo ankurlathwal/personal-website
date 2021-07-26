@@ -1,5 +1,5 @@
-import Head from 'next/head'
-import {GiHighFive} from 'react-icons/gi';
+import Head from "next/head";
+import { GiHighFive } from "react-icons/gi";
 
 export default function Home() {
   return (
@@ -9,12 +9,17 @@ export default function Home() {
         <meta name="description" content="Ankur Lathwal personal website" />
         <link rel="icon" href="/favicons/favicon-rounded.ico" />
       </Head>
-      <main className='container laptop:wrapper'>
-        <h1 className='font-bold flex items-baseline justify-center'><span>Welcome to my world!</span><GiHighFive className='text-primary' /></h1>
-        <div className='font-regular text-center'>My name is Ankur Lathwal and I am a Full Stack Developer based in Melbourne, Australia.</div>
+      <main className="container laptop:wrapper">
+        <h1 className="font-bold flex items-baseline justify-center">
+          <span>Welcome to my world!</span>
+          <GiHighFive className="text-primary" />
+        </h1>
+        <div className="font-regular text-center">
+          My name is Ankur Lathwal and I am a Full Stack Developer based in
+          Melbourne, Australia.
+        </div>
       </main>
-      <footer>
-      </footer>
+      <footer></footer>
     </div>
-  )
+  );
 }
