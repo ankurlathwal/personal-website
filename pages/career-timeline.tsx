@@ -21,7 +21,7 @@ const steps = [
     organization: "EstimateOne",
     link: "https://estimateone.com/",
     location: "Melbourne, Australia 🇦🇺",
-    dates: "May 2022 - present",
+    dates: "May 2022 - present (1 year and 4 months, and counting)",
     description: "Working as a Senior Software Engineer at E1",
     type: "Work",
   },
@@ -30,7 +30,25 @@ const steps = [
     organization: "Arkade",
     link: "https://arkade.com.au/",
     location: "Melbourne, Australia 🇦🇺",
-    dates: "Nov 2020 - May 2022",
+    dates: "Nov 2020 - May 2022 (1 year and 6 months)",
+    description: "Worked as Full Stack Developer in e-commerce",
+    type: "Work",
+  },
+  {
+    title: "Full Stack Developer",
+    organization: "OpenSponsorship",
+    link: "https://opensponsorship.com/",
+    location: "New York, United States 🇺🇸",
+    dates: "Mar 2018 - Mar 2020 (2 years)",
+    description: "Worked as Full Stack Developer in e-commerce",
+    type: "Work",
+  },
+  {
+    title: "Full Stack Developer",
+    organization: "Binfer",
+    link: "https://binfer.com/",
+    location: "Chicago, United States 🇺🇸",
+    dates: "Jun 2017 - Mar 2018 (10 months)",
     description: "Worked as Full Stack Developer in e-commerce",
     type: "Work",
   },
@@ -57,7 +75,7 @@ const steps = [
 
 export default function ContactMe() {
   const { activeStep } = useSteps({
-    index: 4,
+    index: 6,
     count: steps.length,
   });
   return (
