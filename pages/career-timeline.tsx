@@ -1,7 +1,6 @@
 import {
   Box,
   Center,
-  Container,
   Heading,
   Link,
   Step,
@@ -108,7 +107,7 @@ export default function ContactMe() {
                   <Text fontSize={"xs"} as="i">
                     {step.dates}
                   </Text>
-                  <Container mt="8px" fontSize={"xs"}>
+                  {/* <Container mt="8px" fontSize={"xs"}>
                     I've have worked across different startups in the US 🇺🇸
                     (Chicago and New York), wearing all hats and doing frontend,
                     backend, infrastructure, moving from EC2 to
@@ -117,7 +116,7 @@ export default function ContactMe() {
                     I currently work at more of a scale up product company in{" "}
                     <b>Melbourne, Australia</b> 🇦🇺 focusing on clean, testable
                     and maintainable code.
-                  </Container>
+                  </Container> */}
                 </Box>
 
                 <StepSeparator />
