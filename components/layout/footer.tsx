@@ -1,10 +1,10 @@
 import {
   Box,
-  Center,
   Divider,
   HStack,
   Link,
   Spacer,
+  Stack,
   Text,
 } from "@chakra-ui/react";
 import NextLink from "next/link";
@@ -12,11 +12,15 @@ import NextLink from "next/link";
 export const Footer = () => {
   return (
     <footer>
-      <Center>
+      <Box>
         <Divider />
-      </Center>
-      <Center fontSize={"sm"}>
-        <HStack py={"16px"} spacing={"32px"}>
+      </Box>
+      <Box fontSize={"sm"}>
+        <Stack
+          direction={["column-reverse", "column-reverse", "row"]}
+          py={"16px"}
+          spacing={["4px", "8px", "32px"]}
+        >
           <Box>
             <Text>&copy; {new Date().getFullYear()} Ankur Lathwal.</Text>
           </Box>
@@ -62,8 +66,8 @@ export const Footer = () => {
               </Box>
             </HStack>
           </Box>
-        </HStack>
-      </Center>
+        </Stack>
+      </Box>
     </footer>
   );
 };

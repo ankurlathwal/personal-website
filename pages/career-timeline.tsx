@@ -94,7 +94,7 @@ export default function ContactMe() {
                   <StepStatus complete={step.type === "Work" ? `💼` : `📖`} />
                 </StepIndicator>
 
-                <Box flexShrink="0">
+                <Box flexShrink="0" maxW={"100%"}>
                   <Heading size="sm" as={"h3"}>
                     {step.title}
                   </Heading>

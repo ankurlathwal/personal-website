@@ -12,8 +12,12 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main>
-        <Center py="80px">
-          <Flex>
+        <Center py="80px" >
+          <Flex
+            flexDirection={["column", "column", "row"]}
+            gap={["32px"]}
+            alignItems={["center", "center", "start"]}
+          >
             <Image
               boxSize={"200px"}
               borderRadius={"full"}
@@ -22,7 +26,7 @@ export default function Home() {
               alt="Ankur Lathwal Profile Picture"
             ></Image>
             <Spacer />
-            <Box pl="32px">
+            <Box>
               <Text>
                 Hello there! 👋🏽 Welcome to my personal page. I'm a software
                 engineer who can write code to check the fuel efficiency of
