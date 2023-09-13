@@ -81,7 +81,7 @@ export default function PDFViewer() {
             pageNumber={currentPage}
             renderTextLayer={false}
             renderAnnotationLayer={true}
-            scale={1.5}
+            scale={1}
           />
         </Document>
       </Center>

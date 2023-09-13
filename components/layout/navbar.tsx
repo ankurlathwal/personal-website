@@ -92,7 +92,7 @@ export const Navbar = () => {
           finalFocusRef={btnRef}
         >
           <DrawerOverlay />
-          <DrawerContent p="64px">
+          <DrawerContent p="64px" bgColor={"gray.100"}>
             <DrawerCloseButton />
             <DrawerBody>
               <VStack gap={"32px"}>
